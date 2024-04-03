@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    background-color: #111211;
+    color: #bdbdc5;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: "Inria Serif", Georgia, Garamond, serif;
+    font-size: 14pt;
+    margin: auto;
+}
+
+#callToAction {
+    background-color: #f4f4f4;
+    color: #317b41;
+    border-radius: 10% / 50%;
+    padding: 4px;
+}
+
+#callToAction:hover {
+    background-color: #317b41;
+    color: #ffe652;
+}
+
+#title {
+    font-size: 1.6rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+a, .navlist {
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #ffe652;
+}
+
+a:active {
+    color: #317b41;
+}
+
+.navlist {
+    gap: 3vw;
+    justify-content: space-evenly;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.hero {
+    font-weight: 800;
+    font-size: 4rem;
+}
